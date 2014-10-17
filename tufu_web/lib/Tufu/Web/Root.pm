@@ -1,8 +1,8 @@
-package Tufu::Web::Example;
+package Tufu::Web::Root;
 use Mojo::Base 'Mojolicious::Controller';
 
-# This action will render a template
-sub welcome {
+# 初期ページ表示
+sub index {
   my $self = shift;
 
   # Render template "example/welcome.html.ep" with message

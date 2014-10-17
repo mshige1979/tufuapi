@@ -101,3 +101,88 @@
 [Fri Oct 17 22:13:02 2014] [debug] Rendering template "example/welcome.html.ep".
 [Fri Oct 17 22:13:02 2014] [debug] Rendering template "layouts/default.html.ep".
 [Fri Oct 17 22:13:02 2014] [debug] 200 OK (0.056006s, 17.855/s).
+[Fri Oct 17 22:23:35 2014] [info] Listening at "http://*:3000".
+[Fri Oct 17 22:24:00 2014] [info] Listening at "http://*:3000".
+[Fri Oct 17 22:24:05 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 17 22:24:05 2014] [debug] GET "/test1".
+[Fri Oct 17 22:24:05 2014] [debug] Routing to controller "Tufu::Web::App" and action "index".
+[Fri Oct 17 22:24:05 2014] [debug] Template "app/index.html.ep" not found.
+[Fri Oct 17 22:24:05 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Oct 17 22:24:05 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Oct 17 22:24:05 2014] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Fri Oct 17 22:24:05 2014] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Fri Oct 17 22:24:05 2014] [debug] 404 Not Found (0.036961s, 27.056/s).
+[Fri Oct 17 22:28:34 2014] [info] Listening at "http://*:3000".
+[Fri Oct 17 22:28:40 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 17 22:28:40 2014] [debug] GET "/test1".
+[Fri Oct 17 22:28:40 2014] [debug] Routing to controller "Tufu::Web::App" and action "index".
+[Fri Oct 17 22:28:40 2014] [debug] Template "example/welcome.html.ep.html.ep" not found.
+[Fri Oct 17 22:28:40 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Oct 17 22:28:40 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Oct 17 22:28:40 2014] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Fri Oct 17 22:28:40 2014] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Fri Oct 17 22:28:40 2014] [debug] 404 Not Found (0.040311s, 24.807/s).
+[Fri Oct 17 22:28:43 2014] [debug] GET "/test1".
+[Fri Oct 17 22:28:43 2014] [debug] Routing to controller "Tufu::Web::App" and action "index".
+[Fri Oct 17 22:28:43 2014] [debug] Template "example/welcome.html.ep.html.ep" not found.
+[Fri Oct 17 22:28:43 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Oct 17 22:28:43 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Oct 17 22:28:43 2014] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Fri Oct 17 22:28:43 2014] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Fri Oct 17 22:28:43 2014] [debug] 404 Not Found (0.014918s, 67.033/s).
+[Fri Oct 17 22:29:24 2014] [info] Listening at "http://*:3000".
+[Fri Oct 17 22:29:27 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 17 22:29:27 2014] [debug] GET "/test1".
+[Fri Oct 17 22:29:27 2014] [debug] Routing to controller "Tufu::Web::App" and action "index".
+[Fri Oct 17 22:29:27 2014] [debug] Rendering template "example/welcome.html.ep".
+[Fri Oct 17 22:29:27 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 17 22:29:27 2014] [debug] 200 OK (0.048328s, 20.692/s).
+[Fri Oct 17 22:31:01 2014] [info] Listening at "http://*:3000".
+[Fri Oct 17 22:31:06 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 17 22:31:06 2014] [debug] GET "/test1".
+[Fri Oct 17 22:31:06 2014] [debug] Routing to controller "Tufu::Web::App" and action "index".
+[Fri Oct 17 22:31:06 2014] [debug] 200 OK (0.005400s, 185.185/s).
+[Fri Oct 17 22:32:58 2014] [info] Listening at "http://*:3000".
+[Fri Oct 17 22:33:01 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 17 22:33:01 2014] [debug] GET "/test1".
+[Fri Oct 17 22:33:01 2014] [debug] Routing to controller "Tufu::Web::App" and action "index".
+[Fri Oct 17 22:33:01 2014] [debug] 200 OK (0.004771s, 209.600/s).
+[Fri Oct 17 22:33:04 2014] [debug] GET "/".
+[Fri Oct 17 22:33:04 2014] [debug] Class "Tufu::Web::Root" is not a controller.
+[Fri Oct 17 22:33:04 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 17 22:33:04 2014] [error] Global symbol "$msg" requires explicit package name at template root/index.html.ep line 4.
+1: % layout 'default';
+2: % title 'Welcome';
+3: 
+4: <h2><%= $msg %></h2>
+5: This page was generated from the template "templates/example/welcome.html.ep"
+6: and the layout "templates/layouts/default.html.ep",
+7: <a href="<%== url_for %>">click here</a> to reload the page or
+8: <a href="/index.html">here</a> to move forward to a static page.
+9: 
+
+[Fri Oct 17 22:33:04 2014] [debug] Template "exception.development.html.ep" not found.
+[Fri Oct 17 22:33:04 2014] [debug] Template "exception.html.ep" not found.
+[Fri Oct 17 22:33:04 2014] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Fri Oct 17 22:33:04 2014] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Fri Oct 17 22:33:04 2014] [debug] 500 Internal Server Error (0.057049s, 17.529/s).
+[Fri Oct 17 22:33:42 2014] [info] Listening at "http://*:3000".
+[Fri Oct 17 22:33:46 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 17 22:33:46 2014] [debug] GET "/".
+[Fri Oct 17 22:33:46 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 17 22:33:46 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 17 22:33:46 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 17 22:33:46 2014] [debug] 200 OK (0.038948s, 25.675/s).
+[Fri Oct 17 22:35:38 2014] [info] Listening at "http://*:3000".
+[Fri Oct 17 22:35:41 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 17 22:35:41 2014] [debug] GET "/".
+[Fri Oct 17 22:35:41 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 17 22:35:41 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 17 22:35:41 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 17 22:35:41 2014] [debug] 200 OK (0.032896s, 30.399/s).
+[Fri Oct 17 22:36:49 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 17 22:36:49 2014] [debug] GET "/".
+[Fri Oct 17 22:36:49 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 17 22:36:49 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 17 22:36:49 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 17 22:36:49 2014] [debug] 200 OK (0.036134s, 27.675/s).
