@@ -15,3 +15,12 @@ cd tufuapi
 mojo generate app Tufu::Web
 ```
 
+### 環境
+- Perl
+- MySQL
+
+### フレームワーク
+- Twitter BootStrap
+- AngularJS
+- Mojolicious
+
