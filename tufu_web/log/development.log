@@ -1,0 +1,103 @@
+[Fri Oct 17 21:51:48 2014] [info] Listening at "http://*:3000".
+[Fri Oct 17 21:52:21 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 17 21:52:21 2014] [debug] GET "/".
+[Fri Oct 17 21:52:21 2014] [debug] Routing to controller "Tufu::Web::Example" and action "welcome".
+[Fri Oct 17 21:52:21 2014] [debug] Rendering template "example/welcome.html.ep".
+[Fri Oct 17 21:52:21 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 17 21:52:21 2014] [debug] 200 OK (0.022344s, 44.755/s).
+[Fri Oct 17 22:01:38 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 17 22:01:38 2014] [debug] GET "/".
+[Fri Oct 17 22:01:38 2014] [debug] Routing to controller "Tufu::Web::Example" and action "welcome".
+[Fri Oct 17 22:01:38 2014] [debug] Rendering template "example/welcome.html.ep".
+[Fri Oct 17 22:01:38 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 17 22:01:38 2014] [debug] 200 OK (0.023246s, 43.018/s).
+[Fri Oct 17 22:01:38 2014] [debug] GET "/bootstrap.min.css".
+[Fri Oct 17 22:01:38 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Oct 17 22:01:38 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Oct 17 22:01:38 2014] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Fri Oct 17 22:01:38 2014] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Fri Oct 17 22:01:38 2014] [debug] 404 Not Found (0.028819s, 34.699/s).
+[Fri Oct 17 22:01:38 2014] [debug] GET "/jquery-2.1.1.min.js".
+[Fri Oct 17 22:01:38 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Oct 17 22:01:38 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Oct 17 22:01:38 2014] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Fri Oct 17 22:01:38 2014] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Fri Oct 17 22:01:38 2014] [debug] 404 Not Found (0.011232s, 89.031/s).
+[Fri Oct 17 22:01:38 2014] [debug] GET "/bootstrap.min.js".
+[Fri Oct 17 22:01:38 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Oct 17 22:01:38 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Oct 17 22:01:38 2014] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Fri Oct 17 22:01:38 2014] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Fri Oct 17 22:01:38 2014] [debug] 404 Not Found (0.008963s, 111.570/s).
+[Fri Oct 17 22:01:40 2014] [debug] GET "/".
+[Fri Oct 17 22:01:40 2014] [debug] Routing to controller "Tufu::Web::Example" and action "welcome".
+[Fri Oct 17 22:01:40 2014] [debug] Rendering cached template "example/welcome.html.ep".
+[Fri Oct 17 22:01:40 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 17 22:01:40 2014] [debug] 200 OK (0.001392s, 718.391/s).
+[Fri Oct 17 22:01:40 2014] [debug] GET "/jquery-2.1.1.min.js".
+[Fri Oct 17 22:01:40 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Oct 17 22:01:40 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Oct 17 22:01:40 2014] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Fri Oct 17 22:01:40 2014] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Fri Oct 17 22:01:40 2014] [debug] 404 Not Found (0.012592s, 79.416/s).
+[Fri Oct 17 22:01:40 2014] [debug] GET "/bootstrap.min.css".
+[Fri Oct 17 22:01:40 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Oct 17 22:01:40 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Oct 17 22:01:40 2014] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Fri Oct 17 22:01:40 2014] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Fri Oct 17 22:01:40 2014] [debug] 404 Not Found (0.010978s, 91.091/s).
+[Fri Oct 17 22:01:40 2014] [debug] GET "/bootstrap.min.js".
+[Fri Oct 17 22:01:40 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Oct 17 22:01:40 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Oct 17 22:01:40 2014] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Fri Oct 17 22:01:40 2014] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Fri Oct 17 22:01:40 2014] [debug] 404 Not Found (0.008866s, 112.790/s).
+[Fri Oct 17 22:01:48 2014] [info] Listening at "http://*:3000".
+[Fri Oct 17 22:01:51 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 17 22:01:51 2014] [debug] GET "/".
+[Fri Oct 17 22:01:51 2014] [debug] Routing to controller "Tufu::Web::Example" and action "welcome".
+[Fri Oct 17 22:01:51 2014] [debug] Rendering template "example/welcome.html.ep".
+[Fri Oct 17 22:01:51 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 17 22:01:51 2014] [debug] 200 OK (0.019311s, 51.784/s).
+[Fri Oct 17 22:01:51 2014] [debug] GET "/bootstrap.min.css".
+[Fri Oct 17 22:01:51 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Oct 17 22:01:51 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Oct 17 22:01:51 2014] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Fri Oct 17 22:01:51 2014] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Fri Oct 17 22:01:51 2014] [debug] 404 Not Found (0.025185s, 39.706/s).
+[Fri Oct 17 22:01:51 2014] [debug] GET "/jquery-2.1.1.min.js".
+[Fri Oct 17 22:01:51 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Oct 17 22:01:51 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Oct 17 22:01:51 2014] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Fri Oct 17 22:01:51 2014] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Fri Oct 17 22:01:51 2014] [debug] 404 Not Found (0.007681s, 130.191/s).
+[Fri Oct 17 22:01:51 2014] [debug] GET "/bootstrap.min.js".
+[Fri Oct 17 22:01:51 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Oct 17 22:01:51 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Oct 17 22:01:51 2014] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Fri Oct 17 22:01:51 2014] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Fri Oct 17 22:01:51 2014] [debug] 404 Not Found (0.008224s, 121.595/s).
+[Fri Oct 17 22:02:28 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 17 22:02:28 2014] [debug] GET "/".
+[Fri Oct 17 22:02:28 2014] [debug] Routing to controller "Tufu::Web::Example" and action "welcome".
+[Fri Oct 17 22:02:28 2014] [debug] Rendering template "example/welcome.html.ep".
+[Fri Oct 17 22:02:28 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 17 22:02:28 2014] [debug] 200 OK (0.020352s, 49.135/s).
+[Fri Oct 17 22:02:30 2014] [debug] GET "/".
+[Fri Oct 17 22:02:30 2014] [debug] Routing to controller "Tufu::Web::Example" and action "welcome".
+[Fri Oct 17 22:02:30 2014] [debug] Rendering cached template "example/welcome.html.ep".
+[Fri Oct 17 22:02:30 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 17 22:02:30 2014] [debug] 200 OK (0.002708s, 369.276/s).
+[Fri Oct 17 22:10:36 2014] [info] Listening at "http://*:3000".
+[Fri Oct 17 22:11:06 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 17 22:11:06 2014] [debug] GET "/".
+[Fri Oct 17 22:11:06 2014] [debug] Routing to controller "Tufu::Web::Example" and action "welcome".
+[Fri Oct 17 22:11:06 2014] [debug] Rendering template "example/welcome.html.ep".
+[Fri Oct 17 22:11:06 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 17 22:11:06 2014] [debug] 200 OK (0.023284s, 42.948/s).
+[Fri Oct 17 22:13:02 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 17 22:13:02 2014] [debug] GET "/".
+[Fri Oct 17 22:13:02 2014] [debug] Routing to controller "Tufu::Web::Example" and action "welcome".
+[Fri Oct 17 22:13:02 2014] [debug] Rendering template "example/welcome.html.ep".
+[Fri Oct 17 22:13:02 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 17 22:13:02 2014] [debug] 200 OK (0.056006s, 17.855/s).
