@@ -20,6 +20,12 @@ mojo generate app Tufu::Web
 - Perl
 - MySQL
 
+### ツール
+- compass
+- PhpStorm
+- git
+- Sequel Pro
+
 ### フレームワーク
 - Twitter BootStrap
 - AngularJS
