@@ -25,3 +25,7 @@ mojo generate app Tufu::Web
 - AngularJS
 - Mojolicious
 
+### 作成環境
+- 開発（vagrant）
+- 検証（vps）
+- 本番（vps）
