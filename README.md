@@ -16,6 +16,7 @@ mojo generate app Tufu::Web
 ```
 
 ### 環境
+- Linux(CentOS)
 - Perl
 - MySQL
 
