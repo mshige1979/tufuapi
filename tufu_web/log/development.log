@@ -186,3 +186,338 @@
 [Fri Oct 17 22:36:49 2014] [debug] Rendering template "root/index.html.ep".
 [Fri Oct 17 22:36:49 2014] [debug] Rendering template "layouts/default.html.ep".
 [Fri Oct 17 22:36:49 2014] [debug] 200 OK (0.036134s, 27.675/s).
+[Fri Oct 24 20:03:18 2014] [info] Listening at "http://*:3000".
+[Fri Oct 24 20:03:34 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 24 20:03:34 2014] [debug] GET "/".
+[Fri Oct 24 20:03:34 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:03:34 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 24 20:03:34 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 24 20:03:34 2014] [debug] 200 OK (0.053147s, 18.816/s).
+[Fri Oct 24 20:12:17 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 24 20:12:17 2014] [debug] GET "/".
+[Fri Oct 24 20:12:17 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:12:17 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 24 20:12:17 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 24 20:12:17 2014] [debug] 200 OK (0.038649s, 25.874/s).
+[Fri Oct 24 20:14:15 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 24 20:14:15 2014] [debug] GET "/".
+[Fri Oct 24 20:14:15 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:14:15 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 24 20:14:15 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 24 20:14:15 2014] [debug] 200 OK (0.041394s, 24.158/s).
+[Fri Oct 24 20:14:44 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 24 20:14:44 2014] [debug] GET "/".
+[Fri Oct 24 20:14:44 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:14:44 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 24 20:14:44 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 24 20:14:44 2014] [debug] 200 OK (0.034775s, 28.756/s).
+[Fri Oct 24 20:16:38 2014] [debug] GET "/".
+[Fri Oct 24 20:16:38 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:16:38 2014] [debug] Rendering cached template "root/index.html.ep".
+[Fri Oct 24 20:16:38 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 24 20:16:38 2014] [debug] 200 OK (0.002152s, 464.684/s).
+[Fri Oct 24 20:16:42 2014] [debug] GET "/".
+[Fri Oct 24 20:16:42 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:16:42 2014] [debug] Rendering cached template "root/index.html.ep".
+[Fri Oct 24 20:16:42 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 24 20:16:42 2014] [debug] 200 OK (0.001421s, 703.730/s).
+[Fri Oct 24 20:18:12 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 24 20:18:12 2014] [debug] GET "/".
+[Fri Oct 24 20:18:12 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:18:13 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 24 20:18:13 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 24 20:18:13 2014] [debug] 200 OK (0.039674s, 25.205/s).
+[Fri Oct 24 20:18:54 2014] [debug] GET "/".
+[Fri Oct 24 20:18:54 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:18:54 2014] [debug] Rendering cached template "root/index.html.ep".
+[Fri Oct 24 20:18:54 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 24 20:18:54 2014] [debug] 200 OK (0.001476s, 677.507/s).
+[Fri Oct 24 20:18:56 2014] [debug] GET "/".
+[Fri Oct 24 20:18:56 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:18:56 2014] [debug] Rendering cached template "root/index.html.ep".
+[Fri Oct 24 20:18:56 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 24 20:18:56 2014] [debug] 200 OK (0.001479s, 676.133/s).
+[Fri Oct 24 20:23:11 2014] [debug] GET "/".
+[Fri Oct 24 20:23:11 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:23:11 2014] [debug] Rendering cached template "root/index.html.ep".
+[Fri Oct 24 20:23:11 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 24 20:23:11 2014] [debug] 200 OK (0.002547s, 392.619/s).
+[Fri Oct 24 20:26:01 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 24 20:26:01 2014] [debug] GET "/".
+[Fri Oct 24 20:26:01 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:26:01 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 24 20:26:01 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 24 20:26:01 2014] [debug] 200 OK (0.034900s, 28.653/s).
+[Fri Oct 24 20:26:33 2014] [debug] GET "/".
+[Fri Oct 24 20:26:33 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:26:33 2014] [debug] Rendering cached template "root/index.html.ep".
+[Fri Oct 24 20:26:33 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 24 20:26:33 2014] [debug] 200 OK (0.001462s, 683.995/s).
+[Fri Oct 24 20:27:28 2014] [debug] GET "/".
+[Fri Oct 24 20:27:28 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:27:28 2014] [debug] Rendering cached template "root/index.html.ep".
+[Fri Oct 24 20:27:28 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 24 20:27:28 2014] [debug] 200 OK (0.001660s, 602.410/s).
+[Fri Oct 24 20:27:30 2014] [debug] GET "/".
+[Fri Oct 24 20:27:30 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:27:30 2014] [debug] Rendering cached template "root/index.html.ep".
+[Fri Oct 24 20:27:30 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 24 20:27:30 2014] [debug] 200 OK (0.001510s, 662.252/s).
+[Fri Oct 24 20:27:51 2014] [debug] GET "/".
+[Fri Oct 24 20:27:51 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:27:51 2014] [debug] Rendering cached template "root/index.html.ep".
+[Fri Oct 24 20:27:51 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 24 20:27:51 2014] [debug] 200 OK (0.001890s, 529.101/s).
+[Fri Oct 24 20:28:56 2014] [debug] GET "/".
+[Fri Oct 24 20:28:56 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:28:56 2014] [debug] Rendering cached template "root/index.html.ep".
+[Fri Oct 24 20:28:56 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 24 20:28:56 2014] [debug] 200 OK (0.001695s, 589.971/s).
+[Fri Oct 24 20:30:05 2014] [debug] GET "/".
+[Fri Oct 24 20:30:05 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:30:05 2014] [debug] Rendering cached template "root/index.html.ep".
+[Fri Oct 24 20:30:05 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 24 20:30:05 2014] [debug] 200 OK (0.001448s, 690.608/s).
+[Fri Oct 24 20:30:48 2014] [debug] GET "/".
+[Fri Oct 24 20:30:48 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:30:48 2014] [debug] Rendering cached template "root/index.html.ep".
+[Fri Oct 24 20:30:48 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 24 20:30:48 2014] [debug] 200 OK (0.001746s, 572.738/s).
+[Fri Oct 24 20:30:50 2014] [debug] GET "/".
+[Fri Oct 24 20:30:50 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:30:50 2014] [debug] Rendering cached template "root/index.html.ep".
+[Fri Oct 24 20:30:50 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 24 20:30:50 2014] [debug] 200 OK (0.001786s, 559.910/s).
+[Fri Oct 24 20:31:04 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 24 20:31:04 2014] [debug] GET "/".
+[Fri Oct 24 20:31:04 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:31:04 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 24 20:31:04 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 24 20:31:04 2014] [debug] 200 OK (0.039881s, 25.075/s).
+[Fri Oct 24 20:31:47 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 24 20:31:47 2014] [debug] GET "/".
+[Fri Oct 24 20:31:47 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:31:47 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 24 20:31:48 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 24 20:31:48 2014] [debug] 200 OK (0.044384s, 22.531/s).
+[Fri Oct 24 20:32:05 2014] [debug] GET "/".
+[Fri Oct 24 20:32:05 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:32:05 2014] [debug] Rendering cached template "root/index.html.ep".
+[Fri Oct 24 20:32:05 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 24 20:32:05 2014] [debug] 200 OK (0.001214s, 823.723/s).
+[Fri Oct 24 20:32:18 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 24 20:32:18 2014] [debug] GET "/".
+[Fri Oct 24 20:32:18 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:32:18 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 24 20:32:18 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 24 20:32:18 2014] [debug] 200 OK (0.039465s, 25.339/s).
+[Fri Oct 24 20:32:21 2014] [debug] GET "/".
+[Fri Oct 24 20:32:21 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:32:21 2014] [debug] Rendering cached template "root/index.html.ep".
+[Fri Oct 24 20:32:21 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 24 20:32:21 2014] [debug] 200 OK (0.001057s, 946.074/s).
+[Fri Oct 24 20:32:23 2014] [debug] GET "/".
+[Fri Oct 24 20:32:23 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:32:23 2014] [debug] Rendering cached template "root/index.html.ep".
+[Fri Oct 24 20:32:23 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 24 20:32:23 2014] [debug] 200 OK (0.001061s, 942.507/s).
+[Fri Oct 24 20:34:37 2014] [debug] GET "/".
+[Fri Oct 24 20:34:37 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:34:37 2014] [debug] Rendering cached template "root/index.html.ep".
+[Fri Oct 24 20:34:37 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 24 20:34:37 2014] [debug] 200 OK (0.001510s, 662.252/s).
+[Fri Oct 24 20:36:41 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 24 20:36:41 2014] [debug] GET "/".
+[Fri Oct 24 20:36:41 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:36:41 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 24 20:36:41 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 24 20:36:41 2014] [debug] 200 OK (0.042247s, 23.670/s).
+[Fri Oct 24 20:37:13 2014] [debug] GET "/".
+[Fri Oct 24 20:37:13 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:37:13 2014] [debug] Rendering cached template "root/index.html.ep".
+[Fri Oct 24 20:37:13 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 24 20:37:13 2014] [debug] 200 OK (0.001168s, 856.164/s).
+[Fri Oct 24 20:40:02 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 24 20:40:02 2014] [debug] GET "/".
+[Fri Oct 24 20:40:02 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:40:02 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 24 20:40:02 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 24 20:40:02 2014] [debug] 200 OK (0.043854s, 22.803/s).
+[Fri Oct 24 20:41:13 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 24 20:41:13 2014] [debug] GET "/".
+[Fri Oct 24 20:41:13 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:41:13 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 24 20:41:13 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 24 20:41:13 2014] [debug] 200 OK (0.040049s, 24.969/s).
+[Fri Oct 24 20:41:33 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 24 20:41:33 2014] [debug] GET "/".
+[Fri Oct 24 20:41:33 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:41:33 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 24 20:41:33 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 24 20:41:33 2014] [debug] 200 OK (0.045438s, 22.008/s).
+[Fri Oct 24 20:44:06 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 24 20:44:06 2014] [debug] GET "/".
+[Fri Oct 24 20:44:06 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:44:06 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 24 20:44:06 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 24 20:44:06 2014] [debug] 200 OK (0.041979s, 23.821/s).
+[Fri Oct 24 20:45:09 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 24 20:45:09 2014] [debug] GET "/".
+[Fri Oct 24 20:45:09 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:45:09 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 24 20:45:09 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 24 20:45:09 2014] [debug] 200 OK (0.040975s, 24.405/s).
+[Fri Oct 24 20:46:13 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 24 20:46:13 2014] [debug] GET "/".
+[Fri Oct 24 20:46:13 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:46:13 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 24 20:46:13 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 24 20:46:13 2014] [debug] 200 OK (0.039047s, 25.610/s).
+[Fri Oct 24 20:46:37 2014] [debug] GET "/".
+[Fri Oct 24 20:46:37 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:46:37 2014] [debug] Rendering cached template "root/index.html.ep".
+[Fri Oct 24 20:46:37 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 24 20:46:37 2014] [debug] 200 OK (0.002234s, 447.628/s).
+[Fri Oct 24 20:46:40 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 24 20:46:40 2014] [debug] GET "/".
+[Fri Oct 24 20:46:40 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:46:40 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 24 20:46:40 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 24 20:46:40 2014] [debug] 200 OK (0.036473s, 27.418/s).
+[Fri Oct 24 20:50:45 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 24 20:50:45 2014] [debug] GET "/".
+[Fri Oct 24 20:50:45 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:50:45 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 24 20:50:45 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 24 20:50:45 2014] [debug] 200 OK (0.043426s, 23.028/s).
+[Fri Oct 24 20:50:48 2014] [debug] GET "/".
+[Fri Oct 24 20:50:48 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:50:48 2014] [debug] Rendering cached template "root/index.html.ep".
+[Fri Oct 24 20:50:48 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 24 20:50:48 2014] [debug] 200 OK (0.001447s, 691.085/s).
+[Fri Oct 24 20:50:58 2014] [info] Listening at "http://*:3000".
+[Fri Oct 24 20:51:01 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 24 20:51:01 2014] [debug] GET "/".
+[Fri Oct 24 20:51:01 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:51:01 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 24 20:51:01 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 24 20:51:01 2014] [debug] 200 OK (0.033636s, 29.730/s).
+[Fri Oct 24 20:51:18 2014] [debug] GET "/".
+[Fri Oct 24 20:51:18 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:51:18 2014] [debug] Rendering cached template "root/index.html.ep".
+[Fri Oct 24 20:51:18 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 24 20:51:18 2014] [debug] 200 OK (0.001495s, 668.896/s).
+[Fri Oct 24 20:51:33 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 24 20:51:33 2014] [debug] GET "/".
+[Fri Oct 24 20:51:33 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:51:33 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 24 20:51:33 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 24 20:51:33 2014] [debug] 200 OK (0.035532s, 28.144/s).
+[Fri Oct 24 20:51:51 2014] [debug] GET "/".
+[Fri Oct 24 20:51:51 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:51:51 2014] [debug] Rendering cached template "root/index.html.ep".
+[Fri Oct 24 20:51:51 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 24 20:51:51 2014] [debug] 200 OK (0.001984s, 504.032/s).
+[Fri Oct 24 20:51:52 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 24 20:51:52 2014] [debug] GET "/".
+[Fri Oct 24 20:51:52 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:51:52 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 24 20:51:52 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 24 20:51:52 2014] [debug] 200 OK (0.038026s, 26.298/s).
+[Fri Oct 24 20:52:16 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 24 20:52:16 2014] [debug] GET "/".
+[Fri Oct 24 20:52:16 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 20:52:16 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 24 20:52:16 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 24 20:52:16 2014] [debug] 200 OK (0.036033s, 27.752/s).
+[Fri Oct 24 21:11:33 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 24 21:11:33 2014] [debug] GET "/".
+[Fri Oct 24 21:11:33 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 21:11:33 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 24 21:11:33 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 24 21:11:33 2014] [debug] 200 OK (0.041487s, 24.104/s).
+[Fri Oct 24 21:12:03 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 24 21:12:03 2014] [debug] GET "/".
+[Fri Oct 24 21:12:03 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 21:12:03 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 24 21:12:03 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 24 21:12:03 2014] [debug] 200 OK (0.039104s, 25.573/s).
+[Fri Oct 24 21:12:37 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 24 21:12:37 2014] [debug] GET "/".
+[Fri Oct 24 21:12:37 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 21:12:37 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 24 21:12:37 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 24 21:12:37 2014] [debug] 200 OK (0.041055s, 24.358/s).
+[Fri Oct 24 21:14:17 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 24 21:14:17 2014] [debug] GET "/".
+[Fri Oct 24 21:14:17 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 21:14:17 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 24 21:14:17 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 24 21:14:17 2014] [debug] 200 OK (0.034321s, 29.137/s).
+[Fri Oct 24 21:18:27 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 24 21:18:27 2014] [debug] GET "/".
+[Fri Oct 24 21:18:27 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 21:18:27 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 24 21:18:27 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 24 21:18:27 2014] [debug] 200 OK (0.040762s, 24.533/s).
+[Fri Oct 24 21:18:56 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 24 21:18:56 2014] [debug] GET "/".
+[Fri Oct 24 21:18:56 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 21:18:56 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 24 21:18:56 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 24 21:18:56 2014] [debug] 200 OK (0.046873s, 21.334/s).
+[Fri Oct 24 21:19:28 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 24 21:19:28 2014] [debug] GET "/".
+[Fri Oct 24 21:19:28 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 21:19:28 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 24 21:19:29 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 24 21:19:29 2014] [debug] 200 OK (0.037364s, 26.764/s).
+[Fri Oct 24 21:29:40 2014] [debug] GET "/".
+[Fri Oct 24 21:29:40 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 21:29:40 2014] [debug] Rendering cached template "root/index.html.ep".
+[Fri Oct 24 21:29:40 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 24 21:29:40 2014] [debug] 200 OK (0.001492s, 670.241/s).
+[Fri Oct 24 21:29:42 2014] [debug] GET "/".
+[Fri Oct 24 21:29:42 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 21:29:42 2014] [debug] Rendering cached template "root/index.html.ep".
+[Fri Oct 24 21:29:42 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 24 21:29:42 2014] [debug] 200 OK (0.002117s, 472.367/s).
+[Fri Oct 24 21:30:26 2014] [debug] GET "/test1".
+[Fri Oct 24 21:30:26 2014] [debug] Routing to controller "Tufu::Web::App" and action "index".
+[Fri Oct 24 21:30:26 2014] [debug] 200 OK (0.005237s, 190.949/s).
+[Fri Oct 24 21:31:34 2014] [debug] GET "/".
+[Fri Oct 24 21:31:34 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 21:31:34 2014] [debug] Rendering cached template "root/index.html.ep".
+[Fri Oct 24 21:31:34 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 24 21:31:34 2014] [debug] 200 OK (0.001492s, 670.241/s).
+[Fri Oct 24 21:31:34 2014] [debug] GET "/test1".
+[Fri Oct 24 21:31:34 2014] [debug] Routing to controller "Tufu::Web::App" and action "index".
+[Fri Oct 24 21:31:34 2014] [debug] 200 OK (0.000515s, 1941.748/s).
+[Fri Oct 24 21:31:37 2014] [debug] GET "/".
+[Fri Oct 24 21:31:37 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 21:31:37 2014] [debug] Rendering cached template "root/index.html.ep".
+[Fri Oct 24 21:31:37 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Oct 24 21:31:37 2014] [debug] 200 OK (0.001320s, 757.576/s).
+[Fri Oct 24 21:31:37 2014] [debug] GET "/test1".
+[Fri Oct 24 21:31:37 2014] [debug] Routing to controller "Tufu::Web::App" and action "index".
+[Fri Oct 24 21:31:37 2014] [debug] 200 OK (0.000540s, 1851.852/s).
+[Fri Oct 24 21:32:47 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 24 21:32:47 2014] [debug] GET "/test1".
+[Fri Oct 24 21:32:47 2014] [debug] Routing to controller "Tufu::Web::App" and action "index".
+[Fri Oct 24 21:32:47 2014] [debug] 200 OK (0.006994s, 142.980/s).
+[Fri Oct 24 21:32:50 2014] [debug] GET "/test1".
+[Fri Oct 24 21:32:50 2014] [debug] Routing to controller "Tufu::Web::App" and action "index".
+[Fri Oct 24 21:32:50 2014] [debug] 200 OK (0.000565s, 1769.912/s).
+[Fri Oct 24 21:33:41 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 24 21:33:41 2014] [debug] GET "/test1".
+[Fri Oct 24 21:33:41 2014] [debug] Routing to controller "Tufu::Web::App" and action "index".
+[Fri Oct 24 21:33:41 2014] [debug] 200 OK (0.005164s, 193.648/s).
+[Fri Oct 24 21:34:41 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Oct 24 21:34:41 2014] [debug] GET "/".
+[Fri Oct 24 21:34:41 2014] [debug] Routing to controller "Tufu::Web::Root" and action "index".
+[Fri Oct 24 21:34:41 2014] [debug] Rendering template "root/index.html.ep".
+[Fri Oct 24 21:34:41 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Oct 24 21:34:41 2014] [debug] 200 OK (0.053306s, 18.760/s).
+[Fri Oct 24 21:34:42 2014] [debug] GET "/test1".
+[Fri Oct 24 21:34:42 2014] [debug] Routing to controller "Tufu::Web::App" and action "index".
+[Fri Oct 24 21:34:42 2014] [debug] 200 OK (0.005645s, 177.148/s).

@@ -1,20 +1,30 @@
 % layout 'default';
-% title 'Welcome';
+% title 'かぜがふくだけでいたいそれが痛風';
 
-<h2>検索</h2>
-ここにビールとか食事のリンクとか
+<h2 class="subtite">検索</h2>
+<div>
+    <p>
+        <small>プリン体含有量一覧</small>
+    </p>
+    <div>
+    </div>
+</div>
 
 <br />
 <br />
 
-<h2>参考</h2>
-参考ブログなど
-
-<br />
-<br />
-
-<h2>医療機関</h2>
-医療機関のうｒｌ
-
+<h2 class="subtite">医療機関とか</h2>
+<div>
+    <p>
+        <small>医療機関の情報</small>
+    </p>
+    <div>
+        <ul>
+            <li><a href="http://www.tufu.or.jp/" target="_blank">痛風財団</a></li>
+            <li><a href="http://byoinnavi.jp/" target="_blank">病院なび</a></li>
+            <li><a href="http://243sageyo.com/" target="_blank">尿酸下げよう.com</a></li>
+        </ul>
+    </div>
+</div>
 <br />
 <br />
