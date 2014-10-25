@@ -16,7 +16,8 @@ sub startup {
   $r->get('/test1')->to('app#index');
 
   # api用
-
+  $r->get('/api/food')->to('app#food');
+  $r->get('/api/beer')->to('app#beer');
 
   # 画面をリロードした場合の対策
   $r->get('/item1')->to('root#item');
