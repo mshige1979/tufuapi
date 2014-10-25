@@ -10,6 +10,14 @@ package Tufu::Model::Beer{
         default => 'beer'
     );
 
+    sub find{
+        my ($self) = @_;
+
+        my $data;
+        $data = $self->db->single($self->table, {});
+        return $data;
+    }
+
     __PACKAGE__->meta->make_immutable();
 
 }

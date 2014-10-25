@@ -53,6 +53,8 @@ sub food {
 
    my $data = [];
    my $model = new Tufu::Model::Beer();
+   my $list = $model->find();
+   $log->debug(Dumper($list));
 
    $log->debug("beer end");
 
