@@ -9,4 +9,10 @@ sub index {
   $self->render(msg => 'Welcome to the Mojolicious real-time web framework!');
 }
 
+sub item {
+  my $self = shift;
+
+  $self->redirect_to("/");
+}
+
 1;

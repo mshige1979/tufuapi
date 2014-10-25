@@ -7,6 +7,13 @@
         <small>プリン体含有量一覧</small>
     </p>
     <div>
+        <a href="item1">
+            <img src="/img/tama02.jpg" alt="食べ物" class="img-rounded" style="width: 200px;">
+        </a>
+        <a href="item2">
+            <img src="/img/draft_beer_t.png" alt="お酒" class="img-rounded" style="width: 200px;">
+        </a>
+        <div ng-view class="view-demo"></div>
     </div>
 </div>
 

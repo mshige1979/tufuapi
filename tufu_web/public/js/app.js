@@ -1,8 +1,34 @@
-/**
- * Created by matsumotoshigeharu on 14/10/25.
- */
-var tufuApp = angular.module('tufuApp', []);
-tufuApp.controller('PhoneListCtrl', ['$scope', '$http', function ($scope, $http) {
+
+var tufuApp = angular.module('tufuApp', ['ngRoute', 'ngAnimate']);
+
+tufuApp.config(function($routeProvider, $locationProvider){
+
+    $routeProvider.when('/', {
+        templateUrl: "templates/main.html",
+        controller: MainController
+
+    }).when('/item1', {
+        templateUrl: "templates/item1.html",
+        controller: Page1Controller
+
+    }).when('/item2', {
+        templateUrl: "templates/item2.html",
+        controller: Page2Controller
+
+    }).otherwise({
+        redirectTo: '/'
+    });
+
+});
+
+tufuApp.config(function($locationProvider){
+    $locationProvider.html5Mode({
+        enabled: true,
+        requireBase: false
+    });
+});
+
+function MainController($scope, $http){
     $scope.phones = [
         {'name': 'Nexus S',
             'snippet': 'Fast just got faster with Nexus S.'},
@@ -24,4 +50,12 @@ tufuApp.controller('PhoneListCtrl', ['$scope', '$http', function ($scope, $http)
 
     });
 
-}]);
+}
+
+function Page1Controller($scope){
+    $scope.data = "aaaaa";
+}
+
+function Page2Controller($scope){
+    $scope.data = "bbbbb";
+}
