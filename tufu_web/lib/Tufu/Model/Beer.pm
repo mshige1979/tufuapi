@@ -23,8 +23,14 @@ package Tufu::Model::Beer{
         while(my $row = $data->next()){
             push @{$list}, {
                 id => $row->id,
+                maker => $row->maker,
                 kind => $row->kind,
-                item_name => $row->item_name
+                item_name => $row->item_name,
+                alcohol_content => $row->alcohol_content,
+                prin_value => $row->prin_value,
+                unit_name => $row->unit_name,
+                make_end_flg => $row->make_end_flg,
+                not_write_flg => $row->not_write_flg
             };
         }
 
