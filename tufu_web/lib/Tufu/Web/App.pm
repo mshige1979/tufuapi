@@ -3,6 +3,7 @@ use Mojo::Base 'Mojolicious::Controller';
 
 use Tufu::Model::Food;
 use Tufu::Model::Beer;
+use Data::Dumper;
 
 # This action will render a template
 sub index {
@@ -28,9 +29,16 @@ sub index {
 sub food {
    # パラメータ指定
    my $self = shift;
+   my $log = $self->app->log;
+
+   $log->debug("food start");
 
    my $data = [];
    my $model = new Tufu::Model::Food();
+   my $list = $model->find();
+
+   $log->debug(Dumper($list));
+   $log->debug("food end");
 
    # json指定
    $self->render(json => $data);
@@ -39,10 +47,14 @@ sub food {
  sub beer {
    # パラメータ指定
    my $self = shift;
+   my $log = $self->app->log;
+
+   $log->debug("beer start");
 
    my $data = [];
    my $model = new Tufu::Model::Beer();
 
+   $log->debug("beer end");
 
    # json指定
    $self->render(json => $data);

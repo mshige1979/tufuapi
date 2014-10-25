@@ -6,7 +6,14 @@ use utf8;
 use Encode;
 
 table{
-    name 'posts';
+    name 'food';
+    pk   'id';
+    columns qw/id title body/;
+
+};
+
+table{
+    name 'beer';
     pk   'id';
     columns qw/id title body/;
 
