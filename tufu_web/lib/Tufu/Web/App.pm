@@ -33,7 +33,6 @@ sub food {
 
    $log->debug("food start");
 
-   my $data = [];
    my $model = new Tufu::Model::Food();
    my $list = $model->find();
 
@@ -41,7 +40,7 @@ sub food {
    $log->debug("food end");
 
    # json指定
-   $self->render(json => $data);
+   $self->render(json => $list);
  }
 
  sub beer {
@@ -51,7 +50,6 @@ sub food {
 
    $log->debug("beer start");
 
-   my $data = [];
    my $model = new Tufu::Model::Beer();
    my $list = $model->find();
    $log->debug(Dumper($list));
@@ -59,7 +57,7 @@ sub food {
    $log->debug("beer end");
 
    # json指定
-   $self->render(json => $data);
+   $self->render(json => $list);
  }
 
 1;
