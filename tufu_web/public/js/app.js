@@ -52,10 +52,30 @@ function MainController($scope, $http){
 
 }
 
-function Page1Controller($scope){
-    $scope.data = "aaaaa";
+function Page1Controller($scope, $http){
+    $http({
+        method: 'get',
+        url: '/api/food',
+        withCredentials: true
+    }).success(function(data) {
+        $scope.food_list = data;
+
+    }).error(function(data, status) {
+        alert('通信エラーが発生しました');
+
+    });
 }
 
-function Page2Controller($scope){
-    $scope.data = "bbbbb";
+function Page2Controller($scope, $http){
+    $http({
+        method: 'get',
+        url: '/api/beer',
+        withCredentials: true
+    }).success(function(data) {
+        $scope.beer_list = data;
+
+    }).error(function(data, status) {
+        alert('通信エラーが発生しました');
+
+    });
 }

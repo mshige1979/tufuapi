@@ -1,3 +1,15 @@
 <div class="content">
-    data = {{ data }}
+    <table class="table">
+        <tr ng-repeat="item in beer_list">
+            <td>{{item.id}}</td>
+            <td>{{item.maker}}</td>
+            <td>{{item.kind}}</td>
+            <td>{{item.item_name}}</td>
+            <td>{{item.alcohol_content}}</td>
+            <td>{{item.prin_value}}</td>
+            <td>{{item.unit_name}}</td>
+            <td>{{item.make_end_flg}}</td>
+            <td>{{item.not_write_flg}}</td>
+        </tr>
+    </table>
 </div>
