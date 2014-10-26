@@ -35,3 +35,9 @@ mojo generate app Tufu::Web
 - 開発（vagrant）
 - 検証（vps）
 - 本番（vps）
+
+### アプリケーションサーバ環境
+- supervisor
+- nginx
+- Starman
+
