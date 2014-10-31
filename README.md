@@ -41,3 +41,11 @@ mojo generate app Tufu::Web
 - nginx
 - Starman
 
+### 環境変数
+```
+export TUFUAPP_DATABASE="db_name"
+export TUFUAPP_HOST="server"
+export TUFUAPP_USER="foofoo"
+export TUFUAPP_PASS="hogeohge"
+
+```
