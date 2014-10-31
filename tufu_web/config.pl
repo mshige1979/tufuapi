@@ -1,3 +1,3 @@
 {
-    connect_info => [ 'dbi:mysql:sample_db1:localhost', 'root', undef, +{ mysql_enable_utf8 => 1 } ]
+    connect_info => [ "dbi:mysql:$ENV{'TUFUAPP_DATABASE'}:$ENV{'TUFUAPP_HOST'}", $ENV{'TUFUAPP_USER'}, $ENV{'TUFUAPP_PASS'}, +{ mysql_enable_utf8 => 1 } ]
 }
