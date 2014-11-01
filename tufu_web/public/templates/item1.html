@@ -1,12 +1,12 @@
-<div class="content">
+<div class="content foods">
     <table class="table">
         <tr>
             <th>No</th>
             <th>種類</th>
             <th>商品名</th>
             <th>プリン体</th>
-            <th>１食あたりのプリン体</th>
-            <th>１食あたりの量</th>
+            <th class="mobile">１食あたりのプリン体</th>
+            <th class="mobile">１食あたりの量</th>
             <th>単位</th>
         </tr>
         <tr ng-repeat="item in food_list">
@@ -14,8 +14,8 @@
             <td>{{item.kind}}</td>
             <td>{{item.item_name}}</td>
             <td>{{item.prin_value}}</td>
-            <td>{{item.one_prin_value}}</td>
-            <td>{{item.one_amount}}</td>
+            <td class="mobile">{{item.one_prin_value}}</td>
+            <td class="mobile">{{item.one_amount}}</td>
             <td>{{item.unit_name}}</td>
         </tr>
     </table>

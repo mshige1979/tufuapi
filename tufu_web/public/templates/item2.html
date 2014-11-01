@@ -1,26 +1,26 @@
-<div class="content">
+<div class="content beer">
     <table class="table">
         <tr>
             <th>No</th>
             <th>メーカー</th>
             <th>種類</th>
             <th>商品名</th>
-            <th>アルコール度数</th>
+            <th class="mobile">アルコール度数</th>
             <th>プリン体</th>
             <th>単位</th>
-            <th>製造終了</th>
-            <th>未入力</th>
+            <th class="mobile">製造終了</th>
+            <th class="mobile">未入力</th>
         </tr>
         <tr ng-repeat="item in beer_list">
             <td>{{item.id}}</td>
             <td>{{item.maker}}</td>
             <td>{{item.kind}}</td>
             <td>{{item.item_name}}</td>
-            <td>{{item.alcohol_content}}</td>
+            <td class="mobile">{{item.alcohol_content}}</td>
             <td>{{item.prin_value}}</td>
             <td>{{item.unit_name}}</td>
-            <td>{{item.make_end_flg}}</td>
-            <td>{{item.not_write_flg}}</td>
+            <td class="mobile">{{item.make_end_flg}}</td>
+            <td class="mobile">{{item.not_write_flg}}</td>
         </tr>
     </table>
 </div>

@@ -59,3 +59,29 @@ body > .container {
   left:100%;
 }
 
+.foods, .beer{
+  table{
+    tr{
+      th, td{
+        &.mobile{
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+//
+@media screen and (min-width: 640px) {
+  .foods, .beer{
+    table{
+      tr{
+        th, td{
+          &.mobile{
+            display: table-cell;
+          }
+        }
+      }
+    }
+  }
+}

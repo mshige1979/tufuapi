@@ -8,12 +8,18 @@ sub startup {
   # Documentation browser under "/perldoc"
   $self->plugin('PODRenderer');
 
+  $self->app->hook(before_routes => sub {
+    my $c = shift;
+    $c->req->headers->if_modified_since(
+        'Thu, 01 Jun 1970 00:00:00 GMT'
+    );
+  });
+
   # Router
   my $r = $self->routes;
 
   # Normal route to controller
   $r->get('/')->to('root#index');
-  $r->get('/test1')->to('app#index');
 
   # api用
   $r->get('/api/food')->to('app#food');
@@ -22,6 +28,8 @@ sub startup {
   # 画面をリロードした場合の対策
   $r->get('/item1')->to('root#item');
   $r->get('/item2')->to('root#item');
+
+
 
 }
 

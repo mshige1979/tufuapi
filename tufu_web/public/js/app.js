@@ -28,6 +28,8 @@ tufuApp.config(function($locationProvider){
     });
 });
 
+tufuApp.controller('NaviController', NaviController);
+
 function MainController($scope, $http){
 }
 
@@ -57,4 +59,10 @@ function Page2Controller($scope, $http){
         alert('通信エラーが発生しました');
 
     });
+}
+
+function NaviController($scope){
+    $scope.link = function(){
+        location.href = "/";
+    }
 }
