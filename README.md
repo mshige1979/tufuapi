@@ -33,12 +33,11 @@ mojo generate app Tufu::Web
 
 ### 作成環境
 - 開発（vagrant）
-- 検証（vps）
 - 本番（vps）
 
 ### アプリケーションサーバ環境
 - supervisor
-- nginx
+- apache
 - Starman
 
 ### 環境変数
