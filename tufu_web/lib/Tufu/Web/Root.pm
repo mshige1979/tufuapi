@@ -5,8 +5,12 @@ use Mojo::Base 'Mojolicious::Controller';
 sub index {
   my $self = shift;
 
-  # Render template "example/welcome.html.ep" with message
-  $self->render(msg => 'Welcome to the Mojolicious real-time web framework!');
+  # stash
+  $self->stash->{google_code} = $ENV{'TUFUAPP_GOOGLE_CODE'};
+
+  # view
+  $self->render();
+
 }
 
 sub item {
