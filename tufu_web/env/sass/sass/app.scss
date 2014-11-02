@@ -2,6 +2,15 @@ body > .container {
   padding: 60px 15px 0;
 }
 
+.navbar-header{
+  text-align: center;
+  .navi-title{
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+
 .subtite{
   border-bottom: 1px solid #000000;
 }
@@ -73,6 +82,14 @@ body > .container {
 
 //
 @media screen and (min-width: 640px) {
+
+  .navbar-header{
+    text-align: left;
+    .navi-title{
+      width: 200px;
+    }
+  }
+
   .foods, .beer{
     table{
       tr{

@@ -18,6 +18,11 @@
 </div>
 
 <br />
+<h2 class="subtite">Twitter</h2>
+<div>
+<a class="twitter-timeline" href="https://twitter.com/search?q=%E7%97%9B%E9%A2%A8+%E3%83%97%E3%83%AA%E3%83%B3%E4%BD%93+%E5%B0%BF%E9%85%B8" data-widget-id="528891475061260288">痛風 プリン体 尿酸 に関するツイート</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
 <br />
 
 <h2 class="subtite">医療機関とか</h2>
