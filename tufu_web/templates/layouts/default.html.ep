@@ -47,7 +47,13 @@
             <div class="navbar-header" ng-controller="NaviController">
                 <a class="navi-title navbar-brand" href="/" ng-click="link()">いたいかぜ</a>
             </div>
-            <div class="ninja_onebutton">
+        </div>
+    </div>
+    <div class="container">
+        <div class="content">
+            <%= content %>
+        </div>
+        <div class="ninja_onebutton">
             <script type="text/javascript">
             //<![CDATA[
             (function(d){
@@ -58,12 +64,6 @@
             })(document);
             //]]>
             </script><span class="ninja_onebutton_hidden" style="display:none;"></span><span style="display:none;" class="ninja_onebutton_hidden"></span>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="content">
-            <%= content %>
         </div>
     </div>
     <div class="footer">
