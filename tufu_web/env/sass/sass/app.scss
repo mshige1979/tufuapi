@@ -66,6 +66,15 @@ $globalFontColor: #FFFFFF;
   text-align: center;
 }
 
+.google_ads_content{
+  text-align: center;
+}
+
+.amazon_content{
+  text-align: center;
+}
+
+
 /*対象の属性 (view-demo) を持つ要素に追加されるCSS*/
 .view-demo.ng-enter, .view-demo.ng-leave {
   -webkit-transition-duration: 1s;
