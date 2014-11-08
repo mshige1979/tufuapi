@@ -20,6 +20,13 @@
     <meta property="og:title" content="いたいかぜ" />
     <meta property="og:image" content="http://www.tufuapp.mobi/icon_image.png">
 
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@m_shige1979" />
+    <meta name="twitter:title" content="いたいかぜ" />
+    <meta name="twitter:description" content="痛風関連の情報サイト" />
+    <meta name="twitter:image" content="http://www.tufuapp.mobi/icon_image.png" />
+    <meta name="twitter:url" content="http://www.tufuapp.mobi/" />
+
     <link rel="icon" href="../../favicon.ico">
     <link href="/css/bootstrap.min.css" rel="stylesheet" />
     <link href="/css/app.css" rel="stylesheet" />
