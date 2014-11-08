@@ -23,6 +23,9 @@
     <link rel="icon" href="../../favicon.ico">
     <link href="/css/bootstrap.min.css" rel="stylesheet" />
     <link href="/css/app.css" rel="stylesheet" />
+    <link href="/favicon.ico" type="image/x-icon" rel="icon" />
+    <link href="/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+
     <script src="/js/jquery-2.1.1.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/angular.min.js"></script>
