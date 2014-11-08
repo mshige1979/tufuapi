@@ -18,7 +18,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://www.tufuapp.mobi/" />
     <meta property="og:title" content="いたいかぜ" />
-    <meta property="og:image" content="">
+    <meta property="og:image" content="http://www.tufuapp.mobi/icon_image.png">
 
     <link rel="icon" href="../../favicon.ico">
     <link href="/css/bootstrap.min.css" rel="stylesheet" />
