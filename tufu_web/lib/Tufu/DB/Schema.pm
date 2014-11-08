@@ -19,4 +19,11 @@ table{
 
 };
 
+table{
+    name 'statistics_num';
+    pk   'year';
+    columns qw/year num_gk num_male num_female/;
+
+};
+
 1;

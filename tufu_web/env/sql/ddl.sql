@@ -28,3 +28,13 @@ CREATE TABLE `beer` (
   `modified` datetime DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `statistics_num` (
+  `year` varchar(50) DEFAULT NULL,
+  `num_gk` DECIMAL(10, 3) DEFAULT NULL,
+  `num_male` DECIMAL(10, 3) DEFAULT NULL,
+  `num_female` DECIMAL(10, 3) DEFAULT NULL,
+  `created` datetime DEFAULT NULL,
+  `modified` datetime DEFAULT NULL,
+  PRIMARY KEY (`year`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

@@ -24,6 +24,7 @@ sub startup {
   # api用
   $r->get('/api/food')->to('app#food');
   $r->get('/api/beer')->to('app#beer');
+  $r->get('/api/dataGraph')->to('app#dataGraph');
 
   # 画面をリロードした場合の対策
   $r->get('/item1')->to('root#item');

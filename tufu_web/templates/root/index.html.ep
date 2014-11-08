@@ -1,7 +1,19 @@
 % layout 'default';
 % title 'かぜがふくだけでいたいそれが痛風';
 
-<h2 class="subtite">検索</h2>
+<h2 class="subtite">痛風の通院者数</h2>
+    <div ng-controller="GraphController" id="chart_div"></div>
+    <div>
+        <p>
+            出典：総務省統計局ホームページ　（<a href="http://www.stat.go.jp/" target="_blank">http://www.stat.go.jp/</a>）
+        </p>
+        <p>
+            ※国民生活基礎調査結果（厚生労働省）より痛風による情報を一部加工・抽出して作成しています
+        </p>
+    </div>
+<div>
+</div>
+<h2 class="subtite">プリン体検索</h2>
 <div>
     <p>
         <small>
@@ -21,7 +33,7 @@
 </div>
 
 <br />
-<h2 class="subtite">医療機関とか</h2>
+<h2 class="subtite">参考リンク</h2>
 <div>
     <p>
         <small>医療機関リンク集</small>
@@ -33,7 +45,9 @@
             <li><a href="http://243sageyo.com/" target="_blank">尿酸下げよう.com</a></li>
             <li><a href="http://seikatsusyukanbyo.com/" target="_blank">日本生活習慣病予防協会</a></li>
             <li><a href="http://www.e-healthnet.mhlw.go.jp/" target="_blank">e-ヘルスネット</a></li>
-        </ul>
+            <li><a href="http://www.stat.go.jp/" target="_blank">総務省統計局</a></li>
+            <li><a href="http://ja.wikipedia.org/wiki/%E7%97%9B%E9%A2%A8" target="_blank">http://ja.wikipedia.org/wiki/痛風</a></li>
+          </ul>
     </div>
 </div>
 <br />
