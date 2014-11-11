@@ -74,6 +74,9 @@ $globalFontColor: #FFFFFF;
   text-align: center;
 }
 
+.popular_content{
+
+}
 
 /*対象の属性 (view-demo) を持つ要素に追加されるCSS*/
 .view-demo.ng-enter, .view-demo.ng-leave {
@@ -123,6 +126,10 @@ $globalFontColor: #FFFFFF;
     .navi-title{
       width: 200px;
     }
+  }
+
+  .popular_content{
+    margin-left: 40px;
   }
 
   .foods, .beer{
