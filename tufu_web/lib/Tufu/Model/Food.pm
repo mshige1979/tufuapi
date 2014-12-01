@@ -26,8 +26,6 @@ package Tufu::Model::Food{
                 kind => $row->kind,
                 item_name => $row->item_name,
                 prin_value => $row->prin_value,
-                one_prin_value => $row->one_prin_value,
-                one_amount => $row->one_amount,
                 unit_name => $row->unit_name
             };
         }

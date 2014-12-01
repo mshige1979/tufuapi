@@ -20,6 +20,9 @@ sub startup {
 
   # Normal route to controller
   $r->get('/')->to('root#index');
+  $r->get('/templates/main.html')->to('root#main');
+  $r->get('/templates/item1.html')->to('root#item1');
+  $r->get('/templates/item2.html')->to('root#item2');
 
   # api用
   $r->get('/api/food')->to('app#food');

@@ -28,9 +28,7 @@ package Tufu::Model::Beer{
                 item_name => $row->item_name,
                 alcohol_content => $row->alcohol_content,
                 prin_value => $row->prin_value,
-                unit_name => $row->unit_name,
-                make_end_flg => $row->make_end_flg,
-                not_write_flg => $row->not_write_flg
+                unit_name => $row->unit_name
             };
         }
 

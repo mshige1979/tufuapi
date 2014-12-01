@@ -5,18 +5,14 @@
             <th>種類</th>
             <th>商品名</th>
             <th>プリン体</th>
-            <th class="mobile">１食あたりのプリン体</th>
-            <th class="mobile">１食あたりの量</th>
             <th>単位</th>
         </tr>
         <tr ng-repeat="item in food_list">
-            <td>{{item.id}}</td>
+            <td class="center">{{item.id}}</td>
             <td>{{item.kind}}</td>
             <td>{{item.item_name}}</td>
-            <td>{{item.prin_value}}</td>
-            <td class="mobile">{{item.one_prin_value}}</td>
-            <td class="mobile">{{item.one_amount}}</td>
-            <td>{{item.unit_name}}</td>
+            <td class="right">{{item.prin_value}}</td>
+            <td class="center">{{item.unit_name}}</td>
         </tr>
     </table>
 </div>
