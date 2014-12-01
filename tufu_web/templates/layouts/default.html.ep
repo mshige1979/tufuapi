@@ -65,11 +65,6 @@
         <div class="content">
             <%= content %>
         </div>
-        <div class="amazon_content">
-            <script type="text/javascript"><!--
-            amazon_ad_tag = "mshige1979ama-22"; amazon_ad_width = "728"; amazon_ad_height = "90"; amazon_ad_logo = "hide"; amazon_ad_link_target = "new"; amazon_ad_include = "尿酸;痛風;プリン体"; amazon_ad_categories = "aj";//--></script>
-            <script type="text/javascript" src="http://ir-jp.amazon-adsystem.com/s/ads.js"></script>
-        </div>
         <div class="google_ads_content">
             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             <!-- 広告１（レスポンシブ） -->
