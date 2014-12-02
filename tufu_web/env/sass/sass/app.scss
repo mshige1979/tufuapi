@@ -121,6 +121,9 @@ $globalFontColor: #FFFFFF;
     }
   }
   table{
+
+    font-size: 80%;
+
     tr{
       th, td{
         &.mobile{
@@ -173,6 +176,9 @@ $globalFontColor: #FFFFFF;
     }
 
     table{
+
+      font-size: 100%;
+
       tr{
         th, td {
           &.mobile {

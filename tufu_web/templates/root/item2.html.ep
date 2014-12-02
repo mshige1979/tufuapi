@@ -5,7 +5,7 @@
     <table class="table">
         <tr>
             <th class="mobile">No</th>
-            <th>メーカー</th>
+            <th class="mobile">メーカー</th>
             <th>種類</th>
             <th>商品名</th>
             <th class="mobile">アルコール度数</th>
@@ -14,7 +14,7 @@
         </tr>
         <tr ng-repeat="item in beer_list | filter:searchText2">
             <td class="mobile center">{{item.id}}</td>
-            <td>{{item.maker}}</td>
+            <td class="mobile">{{item.maker}}</td>
             <td>{{item.kind}}</td>
             <td>{{item.item_name}}</td>
             <td class="mobile right">{{item.alcohol_content}}</td>
