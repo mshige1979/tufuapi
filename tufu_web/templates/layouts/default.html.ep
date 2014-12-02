@@ -53,7 +53,7 @@
 
     </script>
   </head>
-  <body ng-app="tufuApp">
+  <body>
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header" ng-controller="NaviController">
@@ -97,6 +97,8 @@
             </p>
         </div>
     </div>
-
+    <script>
+      angular.bootstrap(document, ['tufuApp']);
+    </script>
   </body>
 </html>
