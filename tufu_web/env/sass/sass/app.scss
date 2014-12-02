@@ -107,6 +107,19 @@ $globalFontColor: #FFFFFF;
 }
 
 .foods, .beer{
+
+  .search_box{
+
+    margin: 5px;
+    padding: 10px;
+    background-color: #DDDDDD;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    input[type=text]{
+      width: 100%;
+    }
+  }
   table{
     tr{
       th, td{
@@ -147,6 +160,18 @@ $globalFontColor: #FFFFFF;
   }
 
   .foods, .beer{
+
+    .search_box{
+      padding: 10px;
+      background-color: #DDDDDD;
+      margin: 10px;
+      margin-left: 0px;
+
+      input[type=text]{
+        width: 50%;
+      }
+    }
+
     table{
       tr{
         th, td {

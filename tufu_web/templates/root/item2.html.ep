@@ -1,22 +1,25 @@
 <div class="content beer">
+    <div class="search_box">
+        search：<input type="text" ng-model="searchText2" />
+    </div>
     <table class="table">
         <tr>
-            <th>No</th>
+            <th class="mobile">No</th>
             <th>メーカー</th>
             <th>種類</th>
             <th>商品名</th>
             <th class="mobile">アルコール度数</th>
             <th>プリン体</th>
-            <th>単位</th>
+            <th class="mobile">単位</th>
         </tr>
-        <tr ng-repeat="item in beer_list">
-            <td class="center">{{item.id}}</td>
+        <tr ng-repeat="item in beer_list | filter:searchText2">
+            <td class="mobile center">{{item.id}}</td>
             <td>{{item.maker}}</td>
             <td>{{item.kind}}</td>
             <td>{{item.item_name}}</td>
             <td class="mobile right">{{item.alcohol_content}}</td>
             <td class="right">{{item.prin_value}}</td>
-            <td class="center">{{item.unit_name}}</td>
+            <td class="mobile center">{{item.unit_name}}</td>
         </tr>
     </table>
 </div>
